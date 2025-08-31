@@ -59,6 +59,6 @@ uid=0(root) gid=0(root) groups=0(root)
 ```
 
 # Conclusiones
-> La máquina es vulnerable a un SQL Injection que permite burlar la autenticación.
-> Las credenciales expuestas facilitan acceso vía SSH.
-> La presencia de un binario SUID (env) mal configurado permite la escalada directa a root.
+> La máquina es vulnerable a un SQL Injection que permite burlar la autenticación. 
+> Las credenciales expuestas facilitan acceso vía SSH. 
+> La presencia de un binario SUID (env) mal configurado permite la escalada directa a root. 
