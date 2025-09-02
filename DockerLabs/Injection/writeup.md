@@ -19,7 +19,7 @@ Se prueba una Injección SQL clásica en el campo username:
 ![Injeccion_SQL](capturas/Injection_Dominio_Web_Injeccion_SQL.png)
 
 ### Con cualquier contraseña, el login se bypassa con éxito.
-El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
+### El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
 ![Datos_Sensibles](capturas/Injection_Dominio_Web_Muestra_Contrasena.png)
 
 ### Evidencia: Contraseña Guardada en:
