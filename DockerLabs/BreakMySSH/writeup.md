@@ -33,6 +33,8 @@ ssh root@172.17.0.2
 ## MAQUINA TERMINADA!!!
 
 # Conclusiones
-> La máquina es vulnerable a SSH.
-> La version desactualizada de SHH permite forzar las contraseñas.
-> La contraseña vulnerable es del mismisimo root, lo cual no es para nada seguro.
+> > La máquina es vulnerable a SSH.
+
+> > La version desactualizada de SHH permite forzar las contraseñas.
+
+> > La contraseña vulnerable es del mismisimo root, lo cual no es para nada seguro.
