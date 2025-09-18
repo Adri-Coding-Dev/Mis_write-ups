@@ -16,10 +16,18 @@ Se prueba una Injección SQL clásica en el campo username:
 ```vbnet
 ' or 1=1-- -
 ```
+<<<<<<< HEAD
 ![Injeccion_SQL](Injection_Dominio_Web_Injeccion_SQL.png)
 Con cualquier contraseña, el login se bypassa con éxito.
 El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
 ![Datos_Sensibles](Injection_Dominio_Web_Muestra_Contrasena.png)
+=======
+![Injeccion_SQL](capturas/Injection_Dominio_Web_Injeccion_SQL.png)
+
+### Con cualquier contraseña, el login se bypassa con éxito.
+### El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
+![Datos_Sensibles](capturas/Injection_Dominio_Web_Muestra_Contrasena.png)
+>>>>>>> 9f596151092de28be68de4e4ea33ac1cdde42ed8
 
 ### Evidencia: Contraseña Guardada en:
 ```bash
@@ -59,6 +67,6 @@ uid=0(root) gid=0(root) groups=0(root)
 ```
 
 # Conclusiones
-> La máquina es vulnerable a un SQL Injection que permite burlar la autenticación.
-> Las credenciales expuestas facilitan acceso vía SSH.
-> La presencia de un binario SUID (env) mal configurado permite la escalada directa a root.
+> La máquina es vulnerable a un SQL Injection que permite burlar la autenticación. 
+> Las credenciales expuestas facilitan acceso vía SSH. 
+> La presencia de un binario SUID (env) mal configurado permite la escalada directa a root. 
