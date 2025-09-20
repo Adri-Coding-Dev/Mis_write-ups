@@ -16,7 +16,7 @@ Se prueba una Injección SQL clásica en el campo username:
 ```vbnet
 ' or 1=1-- -
 ```
-<<<<<<< HEAD
+
 ![Injeccion_SQL](Injection_Dominio_Web_Injeccion_SQL.png)
 Con cualquier contraseña, el login se bypassa con éxito.
 El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
@@ -27,7 +27,6 @@ El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
 ### Con cualquier contraseña, el login se bypassa con éxito.
 ### El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
 ![Datos_Sensibles](capturas/Injection_Dominio_Web_Muestra_Contrasena.png)
->>>>>>> 9f596151092de28be68de4e4ea33ac1cdde42ed8
 
 ### Evidencia: Contraseña Guardada en:
 ```bash
