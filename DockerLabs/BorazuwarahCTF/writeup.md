@@ -11,7 +11,7 @@ sudo bash auto_deploy.sh borazuwarahctf.tar
 ```
 ![Despliegue](capturas/Despliege_Contenedor.png)
 ## Nos da la ip 172.17.0.2, asi que probamos la conectividad:
-![conectividad](capturas/Conectividad_maquina_Ctf.png)
+![conectividad](capturas/Conectividad_Maquina_Ctf.png)
 ### (Conectividad con la maquina)
 
 # 2.- Fase de Reconocimiento
