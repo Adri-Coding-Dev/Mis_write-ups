@@ -7,9 +7,9 @@
 # 1.- Enumeración Inicial
 Al acceder al servicio web en el puerto 80, se encuentra un formulario de login.
 ### Dominio Web:
-![Dominio_Web](Injection_Dominio_Web.png)
+![Dominio_Web](capturas/Injection_Dominio_Web.png)
 ### Pagina Web:
-![Pagina_Web](Injection_Dominio_Web_Pagina.png)
+![Pagina_Web](capturas/Injection_Dominio_Web_Pagina.png)
 
 # 2.- Explotación
 Se prueba una Injección SQL clásica en el campo username:
@@ -38,7 +38,7 @@ Con las credenciales obtenidas, se establece conexión SSH:
 ```nginx
 ssh dylan@172.17.0.2
 ```
-![SSH](Injection_SSH_Completado.png)
+![SSH](capturas/Injection_SSH_Completado.png)
 Acceso exitoso como el usuario dylan
 
 # 4.- Escalada de Privilegios
@@ -46,13 +46,13 @@ Se enumeran los binarios con bit SUID:
 ```javascript
 find / -perm -4000 2>/dev/null
 ```
-![Numeracion_Binarios](Injection_Escalado_Privilegios_2.png)
+![Numeracion_Binarios](capturas/Injection_Escalado_Privilegios_2.png)
 Se detecta /usr/bin/env con privilegios elevados.
 ### Ejecución del binario para escalar:
 ```bash
 /src/bin/env /bin/sh -p
 ```
-![Acceso_Root](Injection_Escalado_Privilegios_3_Final.png)
+![Acceso_Root](capturas/Injection_Escalado_Privilegios_3_Final.png)
 ### Evidencia guardada en:
 ```bash
 Puntos_de_Encuentro/Esclado_Privilegios.txt
