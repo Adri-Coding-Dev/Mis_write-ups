@@ -17,10 +17,13 @@ Se prueba una Injección SQL clásica en el campo username:
 ' or 1=1-- -
 ```
 
-![Injeccion_SQL](Injection_Dominio_Web_Injeccion_SQL.png)
+![Injeccion_SQL](capturas/Injection_Dominio_Web_Injeccion_SQL.png)
+
 Con cualquier contraseña, el login se bypassa con éxito.
 El sistema muestra un nombre de usuario Dylan y una contraseña asociada.
-![Datos_Sensibles](Injection_Dominio_Web_Muestra_Contrasena.png)
+
+![Datos_Sensibles](capturas/Injection_Dominio_Web_Muestra_Contrasena.png)
+
 =======
 ![Injeccion_SQL](capturas/Injection_Dominio_Web_Injeccion_SQL.png)
 
